@@ -46,8 +46,8 @@ from tripdata
 where rn = 1
 
 
-{% if var('is_test_run', default= true) %}
+-- {% if var('is_test_run', default= true) %}
 
-	LIMIT 100
+-- 	LIMIT 100
 
-{% endif %}
+-- {% endif %}

@@ -48,8 +48,9 @@ where rn = 1
 
 
 -- dbt run --m <sql_model> --var 'is_test_run: false'
-{% if var('is_test_run', default= true) %}
 
-	LIMIT 100
+-- {% if var('is_test_run', default= true) %}
 
-{% endif %}
+-- 	LIMIT 100
+
+-- {% endif %}
